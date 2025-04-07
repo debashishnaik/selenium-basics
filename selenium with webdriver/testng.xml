@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/HP/IdeaProjects/selenium with webdriver">
+        <classes>
+            <class name="TestNgDemo.DataProviderDemo">
+                <methods><include name="SearchBox"/></methods>
+            </class>
+            <class name="TestNgDemo.TestngExamples">
+                <methods><include name="dragdrop"/><include name="dragable"/></methods>
+            </class>
+            <class name="cyclosTestNg.HomepageLinks">
+                <methods>
+                    <include name="getTitleAndLinks"/>
+                    <include name="clickNavLinks"/>
+                    <include name="InfoLink"/>
+                    <include name="ContactForm"/>
+                    <include name="loginWithValid"/>
+                    <include name="loginWithInvalid"/>
+                    <include name="register"/>
+                </methods>
+            </class>
+            <class name="cyclosTestNg.LandingPage_BAnner">
+                <methods>
+                    <include name="bannerVerification"/>
+                    <include name="bannerverifyHardAssert"/>
+                    <include name="login"/>
+                </methods>
+            </class>
+            <class name="vistaprint.VistaTestNg">
+                <methods>
+                    <include name="mouseHoverOnStampsAndInks"/>
+                    <include name="loginIconHoverThenClickOnLogin"/>
+                    <include name="login"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
